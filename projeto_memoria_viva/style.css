@@ -225,12 +225,11 @@ body.page-timeline { --cor-fundo: #F2F0EB; }
 .fio-titulo::before { content: '🧶'; font-size: 24px; }
 
 .item-fio {
-    background: var(--cor-fundo); padding: 25px; border-radius: 8px; margin-bottom: 20px; margin-right: 1px;
+    background: var(--cor-fundo); padding: 25px; border-radius: 8px; margin-bottom: 20px;
     border-left: 4px solid var(--cor-primaria); position: relative;
 }
 .item-fio h4 { margin: 0 0 10px 0; color: var(--cor-primaria); font-size: 16px; display: flex; justify-content: space-between; }
-.item-fio p { margin-top: 5; color: #555; font-size: 15px; line-height: 1.6; }
-.item-fio img { width: 100%; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.item-fio p { margin: 0; color: #555; font-size: 15px; line-height: 1.6; }
 .badge-fio { font-size: 12px; background: rgba(0,0,0,0.05); padding: 2px 8px; border-radius: 10px; color: #777; font-weight: normal; }
 
 .barra-lateral {
